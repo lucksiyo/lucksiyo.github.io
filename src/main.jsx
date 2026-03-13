@@ -7,7 +7,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename='process.env.PUBLIC_URL'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
